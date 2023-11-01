@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form	Validation</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<h2>Form</h2>
+		<form id="contactForm" onsubmit="return	validateForm()">
+			<div class="form-grp">
+				<h4>Name:</h4>
+				<input type="text" id="name" name="name" required>
+			</div>
+			<div class="form-grp">
+				<h4 for="email">Email:</h4>
+				<input type="email"	id="email" name="email"	required>
+			</div>
+			<div class="form-grp">
+				<h4>Gender:</h4>
+				<input type="radio"	id="male" name="gender"	value="male" required>
+				<label for="male">Male</label>
+				<input type="radio"	id="female"	name="gender" value="female" required>
+				<label for="female">Female</label>
+				<input type="radio"	id="other"	name="gender" value="other" required>
+				<label for="other">Other</label>
+			</div>
+			<div class="form-grp">
+				<h4>Education:</h4>
+				<input type="checkbox" id="education-10th" name="education"	value="10th">
+				<label for="education-10th">10th</label>
+				<input type="checkbox" id="education-12th" name="education"	value="12th">
+				<label for="education-12th">12th</label>
+				<input type="checkbox" id="education-UG"	name="education" value="UG">
+				<label for="education-UG">Bachelor's</label>
+				<input type="checkbox" id="education-PG" name="education" value="PG">
+				<label for="education-PG">Master's</label>
+				<input type="checkbox" id="education-PhD" name="education" value="PhD">
+				<label for="education-PhD">PhD</label>
+			</div>
+			<button	type="submit">SUBMIT</button>
+		</form>
+	</div>
+	<script	src="script.js"></script>
+</body>
+</html>

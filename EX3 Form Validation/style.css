@@ -1,0 +1,52 @@
+body {
+	font-family: Arial,	sans-serif;
+	background:	url('bg.png')no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height:	100vh;
+}
+
+.container {
+	max-width: 500px;
+	margin:	auto;
+	padding: 20px 20px;
+	background:	rgba(255, 255, 255, 0.3);
+	border:	1px	solid rgba(255, 255, 255, 0.5);
+	border-radius: 20px;
+	backdrop-filter: blur(15px);
+	box-shadow:	rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+h2 {
+	text-align:	center;
+}
+
+.form-grp {
+	margin-bottom: 20px;
+}
+
+input, textarea	{
+	position: relative;
+	padding: 10px;
+	background:	rgba(255, 255, 255, 0.4);
+	border:	1px	solid rgba(0, 0, 0, 0.2);
+	box-shadow:	rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	border-radius: 8px;
+}
+
+button {
+	background-color: #000000;
+	box-shadow:	rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 10px;
+	width: 100%;
+}
+
+button:hover{
+	background-color: #1fac61;
+	box-shadow:	rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+	transition: all 0.2s ease-in;
+}
